@@ -1,0 +1,23 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int n,i;
+    int highest  = 0;
+    int position = 0;
+    
+    for(i = 0; i < 100; i++){
+            cin >> n;
+            if(n > highest){
+                 highest = n;
+                 position = i;
+            }
+    }
+    
+    cout << highest << endl;
+    cout << position+1 << endl;
+    
+    return 0;
+}
