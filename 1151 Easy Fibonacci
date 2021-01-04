@@ -1,0 +1,29 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int n,i;
+    int Fibonacci [46];
+    
+    cin >> n;
+    
+    Fibonacci [0] = 0;
+    Fibonacci [1] = 1;
+    
+    cout << Fibonacci [0] << " " << Fibonacci [1] << " ";
+    
+    for(i = 2; i < n; i++)
+    {
+            Fibonacci [i] = Fibonacci [i-1] + Fibonacci [i-2];
+            if(i == (n-1))
+                 cout << Fibonacci [i];
+            else
+                cout << Fibonacci [i] << " " ;
+    }
+    
+    cout<<endl;
+    
+    return 0;
+}
