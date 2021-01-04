@@ -1,0 +1,20 @@
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+ 
+int main() {
+ 
+    char store[50]="AMO FAZER EXERCICIO NO URI";
+
+    printf("<%s>\n",store);
+    printf("<%30s>\n",store);
+    printf("<%.20s>\n",store);
+    printf("<%-20s>\n",store);
+    printf("<%-30s>\n",store);
+    printf("<%.30s>\n",store);
+    printf("<%30.20s>\n",store);
+    printf("<%-30.20s>\n",store);
+    
+    return 0;
+}
