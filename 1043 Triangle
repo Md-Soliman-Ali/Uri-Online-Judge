@@ -1,0 +1,23 @@
+#include <iostream>
+#include <stdio.h>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    double A,B,C,Area;
+    
+    cin>>A;
+    cin>>B;
+    cin>>C;
+    
+    if(A+B>C && B+C>A && A+C>B )
+           printf("Perimetro = %.1lf\n", A+B+C);
+    else
+    {
+        Area =.5*(A+B)*C;
+       printf("Area = %.1lf\n",Area);
+    }
+ 
+    return 0;
+}
