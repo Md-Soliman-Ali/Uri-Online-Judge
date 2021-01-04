@@ -1,0 +1,16 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int hour,minute,second,n;
+    cin>>n;
+    
+    hour = n / 3600;
+    minute = n % 3600 / 60;
+    second = n % 60;
+    cout << hour<< ":" << minute << ":" <<  second << endl;
+    
+    return 0;
+}
