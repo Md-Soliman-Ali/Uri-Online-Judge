@@ -1,0 +1,22 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+      int a,b,c,d,e;
+      string str;
+      cin>>a;
+      
+    for(b=1; b<=a; b++)
+    {
+        cin>>str;
+        cin>>c;
+        if(str[0]=='T' && str[1]=='h' && str[2]=='o' && str[3]=='r')
+            cout<<"Y\n";
+        else
+        cout<<"N\n";
+    }
+    
+    return 0;
+}
