@@ -1,0 +1,28 @@
+#include <iostream>
+#include<stdio.h>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int X,Y;
+    float Total;
+    
+    cin>>X;
+    cin>>Y;
+    
+    if(X==1)
+        Total=Y*4.00;
+    if(X==2)
+        Total=Y*4.50;
+    if(X==3)
+        Total=Y*5.00;
+    if(X==4)
+        Total=Y*2.00;
+    if(X==5)
+        Total=Y*1.50;
+        
+    printf("Total: R$ %.2f\n",Total);
+ 
+    return 0;
+}
