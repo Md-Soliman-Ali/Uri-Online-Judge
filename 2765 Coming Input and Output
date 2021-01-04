@@ -1,0 +1,22 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int i; 
+    string file;
+	getline(cin,file);
+	
+	for(i=0;i<file.length();i++)
+	
+	{
+		if(file[i]==',')
+		cout<<endl;
+		else cout<<file[i];
+	}
+	
+	cout<<endl;
+ 
+    return 0;
+}
